@@ -4,7 +4,7 @@ A lightweight C++ library and command-line tool for image steganography using Le
 
 ## Overview
 
-This tool hides text in images by tweaking the least significant bits of pixels. It's great for quick demos, learning stego basics, or simple data concealment. Supports encoding with capacity checks and decoding with auto-length detection.
+This tool hides text in images by tweaking the least significant bits of pixels. 
 
 ## Features
 - Load/save BMP, PNG, JPEG via STB libraries.
@@ -109,5 +109,5 @@ LSB is basic—easy to crack with stats tools. Encrypt your message first for re
 
 
 ---
-
+Миура
 Version 1.0.0
