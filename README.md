@@ -74,7 +74,7 @@ int main() {
 - `bool decode(in_path, &message)`: Pull out message.
 - `void clear()`: Free memory.
 
-Helpers are private; see code for bit ops and I/O.
+
 
 ## How It Works
 **Encode**:
@@ -89,19 +89,10 @@ Helpers are private; see code for bit ops and I/O.
 - Read len from first 32 bits.
 - Grab next len*8 bits for chars.
 
-LSB is basic—easy to crack with stats tools. Encrypt your message first for real use.
 
-## Limitations
-- No built-in encryption.
-- JPEG can mangle data on save—stick to PNG/BMP.
-- Capacity tied to image size.
-- Overwrites old hidden stuff.
-- Alpha channels get touched, might tweak transparency.
 
-## Troubleshooting
-- Load fail? Check path/format; see STB error.
-- Not enough pixels? Bigger pic or shorter msg.
-- Compile issues? STB files in place?
+
+
 
 
 
